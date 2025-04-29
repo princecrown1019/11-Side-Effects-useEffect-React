@@ -11,8 +11,8 @@ function App() {
   const selectedPlace = useRef();
   const [pickedPlaces, setPickedPlaces] = useState([]);
 
+  navigator.geolocation.getCurrentPosition();
 
-  
   function handleStartRemovePlace(id) {
     modal.current.open();
     selectedPlace.current = id;
