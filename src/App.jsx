@@ -81,6 +81,7 @@ function App() {
           places={pickedPlaces}
           onSelectPlace={handleStartRemovePlace}
         />
+        
         <Places
           title="Available Places"
           fallbackText="Sorting available places..."
